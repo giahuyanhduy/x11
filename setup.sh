@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Cài đặt Xorg (X11 server) và Openbox (trình quản lý cửa sổ nhẹ)
-apt update
+
 apt install -y xorg openbox
 
 # Cài đặt trình duyệt Firefox hoặc Chromium
