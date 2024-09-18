@@ -22,4 +22,7 @@ chmod +x ~/start_browser.sh
 # Thêm script vào ~/.bashrc để chạy mỗi khi đăng nhập
 echo "~/start_browser.sh" >> ~/.bashrc
 
+# Xóa file setup.sh sau khi cài đặt xong
+rm -- "$0"
+
 echo "Cài đặt hoàn tất. Khởi động lại hoặc đăng nhập lại để chạy trình duyệt."
